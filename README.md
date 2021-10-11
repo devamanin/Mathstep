@@ -13,7 +13,7 @@ or
 pip3 install -r requirements.txt
 ```
 
-###Run the Server
+### Run the Server
 After that completes you can run the app with:
 
 ```bash
@@ -24,11 +24,11 @@ or
 pip3 run.py
 ```
 
-###Open in the browser
+### Open in the browser
 
 http://127.0.0.1:5000/
 
-####Gotchas
+#### Gotchas
 
 If you run in to the following error:
 
