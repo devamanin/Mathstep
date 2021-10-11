@@ -5,89 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mathstep</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/base.css')}}">
     <style>
-        @import url(https://fonts.googleapis.com/css?family=Lato);
 
-        *,
-        *:before,
-        *:after {
-            box-sizing: border-box;
-            padding: 0;
-            margin: 0;
-            font-family: "Lato", sans-serif;
-        }
-
-        /*| Navigation |*/
-        nav {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            background: #fff;
-            box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.1);
-            border: 1px solid rgba(0, 0, 0, 0.1);
-        }
-
-        nav ul {
-            list-style: none;
-            position: relative;
-            float: right;
-            margin-right: 100px;
-            display: inline-table;
-        }
-
-        nav ul li {
-            float: left;
-            transition: all 0.2s ease-in-out;
-        }
-
-        nav ul li:hover {
-            background: rgba(0, 0, 0, 0.15);
-        }
-
-        nav ul li:hover>ul {
-            display: block;
-        }
-
-        nav ul li {
-            float: left;
-            transition: all 0.2s ease-in-out;
-        }
-
-        nav ul li a {
-            display: block;
-            padding: 30px 20px;
-            color: #222;
-            font-size: 0.9em;
-            letter-spacing: 1px;
-            text-decoration: none;
-            text-transform: uppercase;
-        }
-
-        nav ul ul {
-            display: none;
-            background: #fff;
-            position: absolute;
-            top: 100%;
-            box-shadow: -3px 3px 10px -2px rgba(0, 0, 0, 0.1);
-            border: 1px solid rgba(0, 0, 0, 0.1);
-        }
-
-        nav ul ul li {
-            float: none;
-            position: relative;
-        }
-
-        nav ul ul li a {
-            padding: 15px 30px;
-            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-        }
-
-        nav ul ul ul {
-            position: absolute;
-            left: 100%;
-            top: 0;
-        }
     </style>
 </head>
 
@@ -96,37 +16,51 @@
         <ul>
             <li><a href="#">Pre Algebra</a>
                 <ul>
-                    <li><a href="">Text Books</a></li>
-                    <li><a href="">Syllabus</a></li>
-                    <li><a href="">Class Notes</a></li>
+                    <li><a href="">Long Addition</a></li>
+                    <li><a href="">Long Subtraction</a></li>
+                    <li><a href="">Long Multiplication</a></li>
+                    <li><a href="">Long Division</a></li>
+                    <li><a href="">Factors of a number</a></li>
+                    <li><a href="">HCF and LCM of number</a></li>
+                    <li><a href="">Prime numbers</a></li>
                 </ul>
             </li>
             <li><a href="#">Algebra</a>
                 <ul>
-                    <li><a href="">Text Books</a></li>
-                    <li><a href="">Syllabus</a></li>
-                    <li><a href="">Class Notes</a></li>
+                    <li><a href="">Addition of polynomials</a></li>
+                    <li><a href="">Subtraction of polynomials</a></li>
+                    <li><a href="">Multiplication of polynomials</a></li>
+                    <li><a href="">Long Division of polynomials</a></li>
+                    <li><a href="">Completing the square</a></li>
+                    <li><a href="">Factorization</a></li>
                 </ul>
             </li>
-            <li><a href="#">Pre Calculus</a>
+            <li><a href="#">Operation Research</a>
                 <ul>
-                    <li><a href="">Text Books</a></li>
-                    <li><a href="">Syllabus</a></li>
-                    <li><a href="">Class Notes</a></li>
+                    <li><a href="">Simplex Method</a></li>
+                    <li><a href="">Two-Phase method</a></li>
+                    <li><a href="">Assignment problem</a></li>
+                    <li><a href="">Dual Simplex method</a></li>
+                    <li><a href="">Revised Simplex method</a></li>
                 </ul>
             </li>
             <li><a href="#">Calculus</a>
                 <ul>
-                    <li><a href="">Text Books</a></li>
-                    <li><a href="">Syllabus</a></li>
-                    <li><a href="">Class Notes</a></li>
+                    <li><a href="">Max. and Min. value</a></li>
+                    <li><a href="">Derivative</a></li>
+                    <li><a href="">Integration</a></li>
+                    <li><a href="">Partial Derivative</a></li>
                 </ul>
             </li>
             <li><a href="#">Matrices & Vectors</a>
                 <ul>
-                    <li><a href="">Text Books</a></li>
-                    <li><a href="">Syllabus</a></li>
-                    <li><a href="">Class Notes</a></li>
+                    <li><a href="">Matrix Addition</a></li>
+                    <li><a href="">Matric Multiplication</a></li>
+                    <li><a href="">Transpose of matrix</a></li>
+                    <li><a href="">Cofactor of a matrix</a></li>
+                    <li><a href="">Inverse of matrix</a></li>
+                    <li><a href="">Eigenvalues</a></li>
+                    <li><a href="">Eigenvectors</a></li>
                 </ul>
             </li>
         </ul>
