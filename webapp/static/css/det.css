@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  text-align: center;
+  border: solid 1px rgb(196, 196, 196);
+  border-radius: 5px;
+}
+#matrixin input {
+  margin: 5px;
+  width: 50px;
+}
+.size {
+  font-size: 18px;
+  font-weight: 700;
+}
+#cl-cont {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 8px;
+}
+#cl-cont #cl-but {
+  width: 120px;
+  height: 35px;
+  border: solid 1px rgb(168, 168, 168);
+  position: relative;
+  box-shadow: 5px 5px 0px -1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 5px 5px 0px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 5px 0px -1px rgba(0, 0, 0, 0.75);
+  transition: all 0.3s;
+}
+#cl-cont #cl-but:hover {
+  box-shadow: 2px 2px 0px -1px rgba(0, 0, 0, 0.75);
+}
+#cl-cont #cl-but:active {
+  box-shadow: -2px -2px 0px -1px rgba(0, 0, 0, 0.75);
+}
