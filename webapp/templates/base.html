@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mathstep</title>
     <link rel="stylesheet" href="{{url_for('static', filename='css/base.css')}}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <style>
 
     </style>
@@ -61,10 +63,21 @@
                     <li><a href="">Inverse of matrix</a></li>
                     <li><a href="">Eigenvalues</a></li>
                     <li><a href="">Eigenvectors</a></li>
+                    <li><a href="">Determinant</a></li>
                 </ul>
             </li>
         </ul>
     </nav>
+    <main>
+        <div class="p-input">
+            {% block input %}
+            {% endblock %}
+        </div>
+        <div class="p-output">
+            {% block output %}
+            {% endblock %}
+        </div>
+    </main>
 </body>
 
 </html>

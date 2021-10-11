@@ -89,3 +89,28 @@ nav ul ul ul {
   left: 100%;
   top: 0;
 }
+main {
+  margin-top: 76.6;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.p-input {
+  width: 680px;
+  margin-top: 40px;
+  padding: 20px;
+  padding-bottom: 50px;
+  min-height: 150px;
+  box-shadow: 0 0 4px 1px rgb(199, 199, 199);
+  border-radius: 8px;
+  position: relative;
+}
+.p-output {
+  width: 680px;
+  margin-top: 20px;
+  padding: 20px;
+  min-height: 150px;
+  box-shadow: 0 0 4px 1px rgb(199, 199, 199);
+  border-radius: 8px;
+}
