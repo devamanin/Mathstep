@@ -56,27 +56,21 @@
             </li>
             <li><a href="#">Matrices & Vectors</a>
                 <ul>
-                    <li><a href="">Matrix Addition</a></li>
+                    <li><a href="/maddition">Matrix Addition</a></li>
                     <li><a href="">Matric Multiplication</a></li>
                     <li><a href="">Transpose of matrix</a></li>
                     <li><a href="">Cofactor of a matrix</a></li>
                     <li><a href="">Inverse of matrix</a></li>
                     <li><a href="">Eigenvalues</a></li>
                     <li><a href="">Eigenvectors</a></li>
-                    <li><a href="">Determinant</a></li>
+                    <li><a href="/determinant">Determinant</a></li>
                 </ul>
             </li>
         </ul>
     </nav>
     <main>
-        <div class="p-input">
-            {% block input %}
-            {% endblock %}
-        </div>
-        <div class="p-output">
-            {% block output %}
-            {% endblock %}
-        </div>
+        {% block page %}
+        {% endblock %}
     </main>
 </body>
 

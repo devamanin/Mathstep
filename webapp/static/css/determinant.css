@@ -52,3 +52,21 @@ input {
 #cl-cont #cl-but:active {
   box-shadow: -2px -2px 0px -1px rgba(0, 0, 0, 0.75);
 }
+.p-input {
+  width: 680px;
+  margin-top: 40px;
+  padding: 20px;
+  padding-bottom: 50px;
+  min-height: 150px;
+  box-shadow: 0 0 4px 1px rgb(199, 199, 199);
+  border-radius: 8px;
+  position: relative;
+}
+.p-output {
+  width: 680px;
+  margin-top: 20px;
+  padding: 20px;
+  min-height: 150px;
+  box-shadow: 0 0 4px 1px rgb(199, 199, 199);
+  border-radius: 8px;
+}

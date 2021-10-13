@@ -11,9 +11,11 @@
 
 /*| Navigation |*/
 nav {
-  position: fixed;
+  /* position: fixed;
   top: 0;
-  left: 0;
+  left: 0; */
+  display: block;
+  background-color: green;
   width: 100%;
   background: #fff;
   box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.1);
@@ -95,6 +97,7 @@ main {
   align-items: center;
   flex-direction: column;
   padding: 10px;
+  width: 100%;
 }
 .p-input {
   width: 680px;
