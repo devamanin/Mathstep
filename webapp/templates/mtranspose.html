@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block page %}
+<link rel="stylesheet" href="{{url_for('static', filename='css/mtranspose.css')}}">
+<div class="p-input">
+    <div class="size">
+        <span>Dimension of matrix: </span>
+        <input type="number" name="dim" id="row" min="1" max="10">
+        <span style="margin-left: 5px;">X</span>
+        <input type="number" name="dim" id="column" min="1" max="10">
+    </div>
+    <div id="matrix">
+        <span>Matrix: </span>
+    </div>
+    <div id="cl-cont">
+        <button id="cl-but">
+            Calculate
+        </button>
+    </div>
+</div>
+</div>
+<div class="p-output">
+
+</div>
+<script src="{{url_for('static', filename='js/mtranspose.js')}}"></script>
+{% endblock %}
