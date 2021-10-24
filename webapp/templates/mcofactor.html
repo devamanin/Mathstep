@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block page %}
+<div class="p-input">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/mcofactor.css')}}">
+    <div class="size">
+        <span>Size of matrix: </span>
+        <input type="number" name="size" id="size" min="1" max="10">
+    </div>
+    <div id="matrixin">
+        <span>Matrix: </span>
+    </div>
+    <div id="cl-cont">
+        <button id="cl-but">
+            Calculate
+        </button>
+    </div>
+    <script src="{{url_for('static', filename='js/mcofactor.js')}}"></script>
+</div>
+<div class="p-output">
+
+</div>
+{% endblock %}
