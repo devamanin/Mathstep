@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block page %}
+<link rel="stylesheet" href="{{url_for('static', filename='css/eigenvectors.css')}}">
+<div class="p-input">
+    <div class="size">
+        <span>Dimension of matrix A: </span>
+        <input type="number" name="dim" id="rowA" min="1" max="10">
+        <span style="margin-left: 5px;">X</span>
+        <input type="number" name="dim" id="columnA" min="1" max="10">
+    </div>
+    <div id="matrixA">
+        <span>Matrix A: </span>
+    </div>
+</div>
+<div class="p-output">
+
+</div>
+<script src="{{url_for('static', filename='js/eigenvectors.js')}}"></script>
+{% endblock %}
